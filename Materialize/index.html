@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blog de Turismo - Materialize</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!-- CSS Materialize -->  
+    <link rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+
+    <!-- Estilos Propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+  </head>
+
+  <body>         
+    <div class="container fondo-1 border-1">
+      <!-- LOGO Y TITULO -->
+      <header>
+        <div class="row padding-1">
+          <div class="col s12 m3 l1">
+            <img alt="enlinea - Solusoft Tecnologia Creativa" src="img/logo.png" class="padding-1" />
+          </div>
+          <div class="col s12 m9 l5 center-align">
+            <h4>Diagramación<br>Blog de Turismo<br><small>Framework - Materialize (Material Design)</small></h4>
+            <h6 class="color-1">En busqueda de lugares hermosos!</h6>
+          </div>
+          <div class="col s12 m12 l6">
+            <nav>
+              <div class="nav-wrapper"> <!-- PUSE HOME ACTIVADO PARA QUE ME MUESTRE DONDE ESTOY ACTUALMENTE -->
+                <ul class="right"> <!-- hide-on-med-and-down -->
+                  <li class="active"><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+                  <li><a href="#"><i class="material-icons left">pin_drop</i>Lugares Favoritos</a></li>
+                  <li><a href="#"><i class="material-icons left">airplanemode_active</i>Viajes</a></li>
+                  <li><a href="#"><i class="material-icons left">photo_library</i>Recomendaciones</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      
+      <div class="row">
+        <!-- ICONOS DE REDES SOCIALES, PUSE 2 ICONOS CON PULSE PARA PROBAR EL EFECTO, NO ME GUSTÓ PARA TODOS -->
+        <div class="col s2 m1 l1">        
+          <ul>
+            <li class="margen-1"><a class="btn-floating waves-effect red"><i class="fab fa-youtube"></i></a></li>
+            <li class="margen-1"><a class="btn-floating waves-effect yellow darken-2 pulse"><i class="fab fa-instagram"></i></a></li>
+            <li class="margen-1"><a class="btn-floating waves-effect blue"><i class="fab fa-twitter"></i></a></li>
+            <li class="margen-1"><a class="btn-floating waves-effect red"><i class="fab fa-pinterest-p"></i></a></li>
+            <li class="margen-1"><a class="btn-floating waves-effect blue pulse"><i class="fab fa-facebook-f"></i></a></li>
+          </ul>
+        </div>
+
+        <!-- COLUMNA DE GALERIA DE VIAJES 3 COLUMNAS -->
+        <div class="col s10 m11 l11">
+          <div class="row">
+            <div class="col s12 m4 l4">
+             <img src="img/lugar6.jpg" class="responsive-img z-depth-3 galeria-1">
+             <img src="img/lugar5.jpg" class="responsive-img z-depth-3 galeria-1">
+            </div>
+            
+            <div class="col s12 m4 l4">
+              <!-- <img src="img/lugar2.jpg" class="responsive-img z-depth-3 galeria-1">-->
+            </div>
+            
+            <div class="col s12 m4 l4">
+              <img src="img/lugar3.jpg" class="responsive-img z-depth-3 galeria-1">
+              <img src="img/lugar1.jpg" class="responsive-img z-depth-3 galeria-1">
+              <img src="img/lugar4.jpg" class="responsive-img z-depth-3 galeria-1">
+            </div>            
+          </div>
+        </div>
+      </div>
+     
+      <div class="divider"></div>
+   
+      <div class="row padding-1">
+        <div class="col s12 m8 l8 fondo-3">
+          <div class="col s12 m12 l12">
+            <h5>Las Playas de Miami Beach<br><small>Publicación: 08 de Abril de 2019 | Ubicación: Miami - EE.UU.</small></h5>
+          </div>
+        
+          <div class="col s12 m12 l12">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="img/entrada_blog.jpg" align="left" class="responsive-img z-depth-3 entrada_blog">  
+                  <p class="texto-lado">
+                    Miami Beach es una ciudad ubicada en el condado de Miami-Dade en el estado de Florida (Estados Unidos de América). En el Censo de 2010 tenía una población de 87.779 habitantes.<br><br>
+                    
+                    South Beach es una de las zonas más populares de Miami Beach; en sus playas se permite tomar baños de sol en topless. Otra de sus atracciones es una vida nocturna muy activa y dinámica, con más de 150 clubes, discotecas y similares, así como innumerables restaurantes.<br><br>
+
+                    Miami Beach es uno de los primeros 30 destinos para el turismo gay en Estados Unidos. Miami Beach y sus alrededores se han convertido también en hogar de un creciente número de comunidades judías ortodoxas, las cuales han creado una red de sinagogas. También se encuentran muchas personas propietarias de viviendas veraniegas las cuales utilizan para huir del invierno de los estados más al norte del país.
+                  </p>
+                  <div class="input-field col s12 m12 l12">
+                    <i class="material-icons prefix">comment</i>
+                    <textarea name="texto" id="texto" class="materialize-textarea color-3"></textarea>
+                    <label for="texto">Texto</label>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+          <div class="row fondo-2 padding-1">
+            <div class="col l12 center-align">
+              <img src="img/autor.jpg" class="responsive-img circle autor">
+            </div>
+            <div class="col s12 m12 l12 center-align"><h5><small>Perfil del Autor</small></h5><hr></div>           
+
+            <div class="col s12 m12 l12">
+              <p class="texto-lado">
+
+                Es reconocido por ser el número uno en el escalafón mundial de la UCI, Medallista de oro en los Juegos Olímpicos de Río 2011​ y Juegos Olímpicos de Londres 2012, siendo el único deportista Colombiano en conseguir un bicampeonato olímpico.​ Fredy es el primer hombre latinoamericano en conseguir dos oros olímpicos en un deporte individual.<br><br>
+
+                Por haber sido campeón olímpico en los Juegos de Londres, el Gobierno colombiano lo condecoró con la Orden de Boyacá,​ además de ser bicampeón olímpico, Fredy ha sido ganador de varios campeonatos mundiales, nacionales, estadounidenses, latinoamericanos y panamericanos, entre otros.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="row padding-1">
+        <div class="col s12 m12 l12 fondo-3">
+          <div class="col s12 m12 l12">
+            <h5>Cancún<br><small>Publicación: 12 de Abril de 2019 | Ubicación: México.</small></h5>
+          </div>
+        
+          <div class="col s12 m12 l12">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="img/publicacion2.jpg" align="left" class="responsive-img z-depth-3 entrada_blog">  
+                  <p class="texto-lado">
+                    es una ciudad en el estado de Quintana Roo, siendo cabecera del municipio de Benito Juárez, se ubica en el oriente de México, a más de 1700 km de la Ciudad de México.6​ Es la ciudad más poblada del estado con 628 306 habitantes según últimos censos del Instituto Nacional de Estadística y Geografía en el 2010. Considerada un destino turístico de nivel internacional, con certificación de la Organización Mundial del Turismo,7​ el proyecto de su desarrollo inició operaciones en 1974 como Centro Integralmente Planeado, pionero de Fonatur (Fondo Nacional de Fomento al Turismo), antes conocido como Infratur.<br><br>
+                    
+                    En pocos años, tuvo una notable transformación, ya que, de ser una isla de pescadores rodeada de selva virgen y playas desconocidas, en la actualidad es el centro turístico mexicano más reconocido en el mundo. Actualmente Cancún es el destino que recibe más turistas internacionales de México, junto con la Ciudad de México y la Riviera Maya. Además el Aeropuerto Internacional de Cancún es el segundo con más movimiento de pasajeros, lo que convierte a Cancún en el principal destino turístico de México.
+                  </p>
+                  <div class="input-field col s12 m12 l12">
+                    <i class="material-icons prefix">comment</i>
+                    <textarea name="texto" id="texto" class="materialize-textarea color-3"></textarea>
+                    <label for="texto">Texto</label>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <br><br>
+      <footer></footer>
+    
+    </div>
+    <!-- JavaScript Materialize -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  </body>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+        direction: 'left'
+        });
+      });
+     // Or with jQuery
+     /*
+      $(document).ready(function(){
+      $('.fixed-action-btn').floatingActionButton();
+      });*/
+    </script>
+
+</html>

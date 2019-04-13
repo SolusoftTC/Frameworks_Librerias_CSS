@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blog de Música - Bootstrap</title>
+    
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Estilos Propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+
+  <body>         
+    <header>
+      <!-- LOGO Y TITULO -->
+      <div class="row padding-1 fondo-2">
+        <div class="col-sm-12 col-md-2 col-lg-4 text-center" >
+          <img alt="enlinea - Solusoft Tecnologia Creativa" src="img/logo.png" class="padding-1" />
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-4 padding-1 text-center">  
+          <h2><p class="titulo">Diagramación<br>Blog de Música<br><small>Framework - Bootstrap</small></p></h2>
+        </div>
+        <div class="col-sm-12 col-md-2 col-lg-4"></div>
+      </div>
+
+      <!-- REDES SOCIALES -->
+      <div class="row">
+        <!--  No me funciono col-lg-3 col-lg-offset-9 para que me dejara 9 columnas en blanco
+              y asi alinear la barra a la izquierda dejando el contenido centrado
+              para que cuando cambiara de tamaño, a md o sm, los dejara centrados.
+              Me toco hacer una col de 12 y alinear el texto a la izquierda. -->
+        <div class="col-sm-12 col-md-12 col-lg-12 fondo-2 text-right">
+
+          <ul class="social-header list-inline text-xs-right">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg tamano1">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg tamano1">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg tamano1">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg tamano1">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-pinterest-p fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg tamano1">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <!-- NAVBAR - BARRA DE MENU HORIZONTAL -->
+      <div class="row fondo-3">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark barra-home text-center">
+          <ul class="navbar-nav list-inline">
+            <div class="col-sm-12 col-md-12 col-lg-2">
+              <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home barra-padding"></i>Inicio</a></li>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-2">  
+              <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-street-view barra-padding"></i>Artistas</a></li>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-2">
+              <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-users barra-padding"></i>Grupos</a></li>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-2">
+              <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user barra-padding"></i>Top 10</a></li>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-2">
+              <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-file-alt barra-padding"></i>Letras</a></li>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-2">
+              <li class="nav-item dropdown ml-md-auto">
+                <a class="nav-link dropdown-toggle" href="#" id="menu_Desplegable" data-toggle="dropdown">
+                  <i class="fas fa-drum barra-padding"></i>Acordes
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Acordes</a>
+                  <a class="dropdown-item" href="#">Acordes Mayores</a>
+                  <a class="dropdown-item" href="#">Acordes Menores</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Variantes</a>
+                </div>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- 2 ARTICULOS -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-8">
+
+          <div class="row">
+            <div class="col-sm-12 col-md-7 col-lg-8 text-justify">  
+              <article>
+                <h3>Patricia Teherán Romero</h3>
+                <p class="lead">
+                fue una cantante y compositora colombiana considerada la voz femenina más importante de la historia del vallenato.<br>
+
+                En 1988 es descubierta por Graciela Ceballos, quien la invita a formar parte de un nuevo proyecto musical conformado únicamente por mujeres y que pasó a denominarse Las Musas del Vallenato, con el que grabó tres LP. El último trabajo, llamado Explosivas y Sexys, marcó el fin de su estancia al lado de Las musas y el inicio de un nuevo proyecto que se llamó Las Diosas del Vallenato.<br>
+
+                La artista se trasladaba en su automóvil de Barranquilla a Cartagena después de firmar la participación de las Diosas del Vallenato en el Carnaval de Barranquilla, cuando a las 4:30 de la tarde, en el sitio conocido como Loma de Arena uno de los neumáticos estalló y el vehículo que avanzaba a alta velocidad perdió el control volcándose aparatosamente. Tras su muerte el vallenato femenino prácticamente desapareció de las emisoras y no surgieron otras agrupaciones de mujeres que generaran impacto en el medio.
+                </p>
+                  
+              </article>          
+            </div>      
+
+            <div class="col-sm-12 col-md-5 col-lg-4 padding-1">  
+              <img alt="enlinea - Solusoft Tecnologia Creativa" src="img/patricia-teran.jpg" class="img-thumbnail " />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <textarea name="comentario" id="comentario" placeholder="Comentario..." rows="1" cols="40" class="form-control"></textarea>
+          </div>        
+
+          <div class="row">
+            <div class="col-sm-12 col-md-5 col-lg-4 padding-1">    
+              <img alt="enlinea - Solusoft Tecnologia Creativa" src="img/jose-jose.jpg" class="img-thumbnail " />
+            </div>
+
+            <div class="col-sm-12 col-md-7 col-lg-8 text-justify">    
+              <article>
+                <h3>José José</h3>
+                <p class="lead">
+                José Rómulo Sosa Ortiz, más conocido como José José, es un cantante, autor, actor y productor musical mexicano, conocido en el mundo del espectáculo como El príncipe de la canción. En cincuenta y cinco años de carrera musical, su interpretación y su estilo han influido a numerosos artistas del ámbito mundial.<br><br>
+
+                José José ha vendido más de 250 millones de discos, lo que lo convierte en uno de los cantantes latinoamericanos más exitosos de la historia y hoy en día el artista más importante de México.<br><br>
+
+                Recibió 9 nominaciones al Grammy y numerosos reconocimientos a nivel mundial. Ha llenado recintos como el Madison Square Garden, Radio City Music Hall, Las Dunas, el Auditorio Nacional, entre otros.
+                </p>
+                  
+              </article>
+              
+            </div>         
+          </div>
+          <div class="form-group">
+            <textarea name="comentario" id="comentario" placeholder="Comentario..." rows="1" cols="40" class="form-control"></textarea>
+          </div>              
+        </div>
+        
+        <!-- INPUT BUSCAR CON SU LISTA DE CONTENIDO ENCONTRADO -->
+        <div class="col-sm-12 col-md-12 col-lg-4 padding-1">      
+          <section>            
+            <div class="input-group md-form form-sm form-1 pl-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text purple lighten-3" id="buscar"><i class="fas fa-search" aria-hidden="true"></i></span>
+              </div>
+              <input class="form-control my-0 py-1" type="text" placeholder="Buscar..." aria-label="Search">
+            </div>
+          </section>
+            <br>
+            <div class="col-sm-12 col-md-12 col-lg-12">      
+              <ul class="nav resul-busqueda">
+                <li class="nav-item form-control"><a class="nav-link" href="#">Libros</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Artistas</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Canciones</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Melodias</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Arreglos</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Letras</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Acordes Mayores</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Libros</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Artistas</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Canciones</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Melodias</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Arreglos</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Letras</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Acordes Mayores</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Libros</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Artistas</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Canciones</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Melodias</a></li>
+                <li class="nav-item form-control"><a class="nav-link" href="#">Arreglos</a></li>           
+              </ul>
+            </div>
+          <section>
+      
+
+          </section>
+        </div>
+      </div>
+    </div>
+    
+    <br><br>
+    <footer></footer>
+
+    <!-- JS, Popper.js, and jQuery Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

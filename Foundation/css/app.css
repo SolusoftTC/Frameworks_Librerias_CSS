@@ -1,0 +1,101 @@
+.fondo-atras {
+	height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: url("../img/bg.png") center center no-repeat;
+  background-size: cover;
+}
+
+.titulo-1 {
+	font-size: 1em;
+}
+
+.titulo-2 {
+  font-size: 2em;
+  color: #00aeff;
+}
+
+.titulo-3 {
+  font-size: 1.1em;
+  color: #00aeff; 
+  margin-top: -10px; 
+}
+
+.fondo-1 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.color-1 {
+  color: #00aeff;  
+}
+
+.color-2 {
+  color: #ffffff;  
+}
+
+.padding-1 {
+  padding: 1%; 
+}
+
+.padding-2 {
+  padding: 2%; 
+}
+
+.padding-3 {
+  padding: 3%; 
+}
+
+.border-1 {
+	border: 1px solid #f59a18;
+}
+
+.slogan {
+	font-size: 1em;
+	font-style: italic;	
+  margin-bottom: -10px;
+}
+
+.m-padding-1 {
+  padding: -5px;
+}
+
+
+article {
+	padding: 1%;
+	width: 100%;
+  font-size: 0.8em;
+}
+
+.barra-padding {
+	padding-right: 10px;
+}
+
+.resul-busqueda {
+	list-style: none;
+}
+
+.resul-busqueda li {
+	font-size: 18px;
+	padding: 0;
+	background-color: rgba(52, 58, 64, 0.1);
+  color: #ffffff;	
+  margin-bottom: 1%;
+}
+
+.resul-busqueda a:hover {
+	color: #515A64;
+}
+
+.tamano1 {
+	font-size: 16px;
+}
